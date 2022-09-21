@@ -23,7 +23,7 @@ print(list.index(list[len(list) - 1]))
 
 people = ["Ahmed", "Nasser", "Mohammed"]
 
-print(' '.join(people))
+print(','.join(people))
 
 
 
