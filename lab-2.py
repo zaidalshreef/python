@@ -3,6 +3,8 @@
 
 
 
+
+
 list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 print(list)
@@ -41,12 +43,17 @@ print("add person to list ",dic)
 
 dic[0].pop('name')
 
+# del dic[0]["name"]
+
+
 print("delete name from first item :",dic)
 
 dic[-1]["phone_number"] = "050999999999"
 
-print("add phone number to last item :",dic)
+# dic[-1].update({"phone_number":"05034545545"} )
+
+print("update phone number of last item :",dic)
 
 print("key is found in last item :","name" in dic[0].keys())
 
-print("key is found in last item :","name" in dic[0])
+# print("key is found in last item :","name" in dic[0])
