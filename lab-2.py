@@ -47,6 +47,6 @@ dic[-1]["phone_number"] = "050999999999"
 
 print("add phone number to last item :",dic)
 
-print("key is found in last item :","phone_number" in dic[-1].keys())
+print("key is found in last item :","name" in dic[0].keys())
 
-print("key is found in last item :","phone_number" in dic[0])
+print("key is found in last item :","name" in dic[0])
