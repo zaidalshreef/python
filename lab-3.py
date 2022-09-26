@@ -77,8 +77,8 @@ def largest_element(list):
 # 5
 def  partial_list(list,number):
   # if number < len(list) and number > 0:
-  if number is int:
-    return list[0:number]
+  if isinstance(number,int):
+     return list[:number]
   return "not a valid number"
 
 
@@ -98,6 +98,6 @@ print(sum(2,1))
 print_element_list(list)
 print(sum_item_list(list_of_number))
 largest_element(list_of_number)
-print(partial_list(list_of_number,5))
+print(partial_list(list_of_number,6))
 print_element_list(name)
 break_list(list)
