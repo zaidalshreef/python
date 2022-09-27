@@ -92,12 +92,12 @@ def break_list(list):
     
     
 list = ["Python", "C++", "Java"]
-list_of_number = [1,2,3,10,11,12,13,14,15,16,4,5,6,7,8,9]
+list_of_number = [1,2,3,10]
 name = "Tuwaiq_Academy"
 print(sum(2,1))
 print_element_list(list)
 print(sum_item_list(list_of_number))
 largest_element(list_of_number)
-print(partial_list(list_of_number,6))
+print(partial_list(list_of_number,2))
 print_element_list(name)
 break_list(list)
