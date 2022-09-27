@@ -6,7 +6,4 @@ with open("string.txt", 'r') as file:
     
     for i in range(len(list_string)):
         with open(f"part{i+1}.txt", 'w') as file:
-            file.write(list_string[i]) 
-        
-        # with open("part2.txt", 'w') as file3:
-        #     file3.write(list_string[1])
+            file.write(list_string[i])
