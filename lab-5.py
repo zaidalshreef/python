@@ -1,5 +1,4 @@
 
-
 while True:
     try:
         number = int(input("Enter a number :"))
@@ -10,3 +9,5 @@ while True:
         print("Enter another number")
     except:
         print("please enter a number")
+
+
